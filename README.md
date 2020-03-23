@@ -1,2 +1,2 @@
-# MagitSquare
+# MagicSquare
 Forming a Magic Square
