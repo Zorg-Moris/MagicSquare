@@ -1,0 +1,26 @@
+{
+  "name": "magicsquare",
+  "version": "1.0.0",
+  "description": "formating magic square",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zorg-Moris/MagicSquare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zorg-Moris/MagicSquare/issues"
+  },
+  "homepage": "https://github.com/Zorg-Moris/MagicSquare#readme",
+  "dependencies": {
+    "mocha": "^7.1.1"
+  }
+}
