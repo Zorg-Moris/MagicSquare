@@ -36,11 +36,11 @@ let magicSquare = [
 let newMagicSquare = magicSquare;
 const magicConst = 15;
 
+displayStartSquare(magicSquare, "firstSquare");
 
-function magicSquareFunc(magicSquare) {
-
-    let totalCoast = 0;
-    let digitCount = 0;
+ function magicSquareFunc(magicSquare) {
+            let totalCoast = 0;
+            let digitCount = 0;
 
     for (let i = 0, length = magicSquare.length; i < length; i++) {
         let resultColumn = 0;
@@ -99,7 +99,6 @@ function magicSquareFunc(magicSquare) {
         }
         digitCount = digitCount !== 2 ? digitCount + 1 : digitCount;
     }
-
     return totalCoast;
 }
 
@@ -110,6 +109,5 @@ let endTime = performance.now();
 
 let timer = endTime - startTime;
 
-displayStartSquare(magicSquare, "firstSquare");
 displayStartSquare(newMagicSquare, "resSquare");
 displayInfo(totalCoast, timer);
